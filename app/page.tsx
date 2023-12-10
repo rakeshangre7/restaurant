@@ -19,3 +19,16 @@ export default function Home() {
     </main>
   )
 }
+
+export function Test() {
+  return (
+    <main>
+      <Banner />
+      <Features />
+      <Cook />
+      <Expert />
+      <Gallery />
+      <Newsletter />
+    </main>
+  )
+}
